@@ -8,17 +8,17 @@ class LandingPage extends Component {
       <div className="landing-page">
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpg"
+            {/* <img
+              src="https://cdn1.vectorstock.com/i/1000x1000/51/0ofile-avatar-with-brown-hair-vector-12055105.jpg"
               alt="Avatar"
               className="avatar-img"
-            />
+            /> */}
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | jQuery | JavaScript | React | NodeJS |
-                Express | MySQL | MongoDB | Python
+                HTML/CSS | Bootstrap | jQuery | JavaScript | React/Redux | NodeJS |
+                Express | MySQL | MongoDB 
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
