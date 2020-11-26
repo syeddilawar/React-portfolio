@@ -38,21 +38,21 @@ class LandingPage extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Freecodecamp */}
-                <a
+                {/* <a
                   href="https://www.freecodecamp.org/fccccb51e63-1c0a-4caa-bcff-a1f314e4ea96"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fab fa-free-code-camp" aria-hidden="true" />
-                </a>
+                </a> */}
                 {/* Udemy */}
-                <a
+                {/* <a
                   href="https://www.udemy.com/user/bryan-guilas/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fas fa-chalkboard-teacher" aria-hidden="true" />
-                </a>
+                </a> */}
               </div>
             </div>
           </Cell>
