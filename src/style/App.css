@@ -31,12 +31,17 @@
 .banner-text h1 {
   color: lightcoral;
 
-  font-size: 66px;
+  font-size: 70px;
+}
+.banner-text h3 {
+  color: lightcoral;
+
+  font-size: 30px;
 }
 
 .banner-text hr {
   border-top: 5px solid lightcoral;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -90,6 +95,6 @@
 }
 
 .contact-list i {
-  font-size: 66px;
+  font-size: 70px;
   padding-right: 5rem;
 }

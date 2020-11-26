@@ -8,9 +8,7 @@ import {
   CardTitle,
   CardActions,
   Button,
-  IconButton,
   CardText,
-  CardMenu,
 } from "react-mdl";
 class Projects extends Component {
   constructor(props) {
@@ -56,24 +54,25 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
+          <CardText style={{ textAlign: "center", text: "Bold" }}>
+            This is a Code-Quiz webpage where you have 60 sec to answer question
+            and see high score.
+          </CardText>
           <CardTitle
             style={{
               color: "#fff",
               height: "450px",
-              background:
-                "url(https://northernvirginiamag.com/wp-content/uploads/20) center / cover",
+              background: "url() center / cover",
             }}
           ></CardTitle>
-          <CardText>
-            Movie information at a click of a button using the OMDB API.
-          </CardText>
+
           <CardActions border>
-            <a href="https://github.com/BGM6/moviep" target="_blank">
+            <a href="https://github.com/syeddilawar/quiz-code" target="_blank">
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
             </a>
-            <a href="https://bgm6.github.io/pp/" target="_blank">
+            <a href="https://syeddilawar.github.io/quiz-code/" target="_blank">
               <Button colored style={{ marginLeft: "75px" }}>
                 Try App
               </Button>
@@ -84,22 +83,30 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
+          <CardText style={{ textAlign: "center", text: "Bold" }}>
+            This is a Weather Dashboard app which shows your selected weather.
+          </CardText>
           <CardTitle
             style={{
               color: "#fff",
               height: "450px",
-              background:
-                "url(https://blog.connectionsacademy.com/wp-content/uploads/note-taking-1.jpg) center / cover",
+              background: "url() center / cover",
             }}
           ></CardTitle>
-          <CardText>A simple web app to take your notes.</CardText>
+
           <CardActions border>
-            <a href="https://github.com/ker" target="_blank">
+            <a
+              href="https://github.com/syeddilawar/weather-Dashboard"
+              target="_blank"
+            >
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
             </a>
-            <a href="https://notetakerexercise.hpp.com/" target="_blank">
+            <a
+              href="https://syeddilawar.github.io/weather-Dashboard/"
+              target="_blank"
+            >
               <Button colored style={{ marginLeft: "75px" }}>
                 Try App
               </Button>
@@ -110,22 +117,60 @@ class Projects extends Component {
     } else if (this.state.activeTab === 3) {
       return (
         <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
+          <CardText style={{ textAlign: "center", text: "Bold" }}>
+            This is Employee-summary Generator which help you create a employee
+            summary.
+          </CardText>
           <CardTitle
             style={{
               color: "#fff",
               height: "450px",
-              background:
-                "url(htcom/s/files/792/products/Under_Conruct600x600_crop_center.jpg?v=1569104295) center / cover",
+              background: "url(3) center / cover",
             }}
           ></CardTitle>
-          <CardText>Coming soon...</CardText>
+
           <CardActions border>
-            <a href="#" target="_blank">
+            <a
+              href="https://github.com/syeddilawar/Employee-summary"
+              target="_blank"
+            >
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
             </a>
             <a href="#" target="_blank">
+              <Button colored style={{ marginLeft: "75px" }}>
+                Try App
+              </Button>
+            </a>
+          </CardActions>
+        </Card>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
+          <CardText style={{ textAlign: "center", text: "Bold" }}>
+            This is a Readme generator which help you create a Readme file on
+            node.js.
+          </CardText>
+          <CardTitle
+            style={{
+              color: "#fff",
+              height: "450px",
+              background: "url(3) center / cover",
+            }}
+          ></CardTitle>
+
+          <CardActions border>
+            <a
+              href="https://github.com/syeddilawar/Readme-Generator"
+              target="_blank"
+            >
+              <Button colored style={{ marginLeft: "30%" }}>
+                Github
+              </Button>
+            </a>
+            <a href="./image/generater.gif" target="_blank">
               <Button colored style={{ marginLeft: "75px" }}>
                 Try App
               </Button>
@@ -148,6 +193,7 @@ class Projects extends Component {
           <Tab>Code-Quiz</Tab>
           <Tab>weather-Dashboard</Tab>
           <Tab>Employee-summary</Tab>
+          <Tab>Readme-Generator</Tab>
         </Tabs>
 
         <section className="projects-grid">

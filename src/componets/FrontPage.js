@@ -15,6 +15,11 @@ class LandingPage extends Component {
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
+              <h3>
+                Hello I am Syed Dilawar, Living in California Bay-area My name
+                is syed i am pursuing my dream come true bootcamp as a software
+                developer in UC-Berkely, California
+              </h3>
               <hr />
               <p>
                 HTML/CSS | Bootstrap | jQuery | JavaScript | React/Redux |
