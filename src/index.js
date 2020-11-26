@@ -1,6 +1,13 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './componets/App';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>
+  , document.querySelector('#root'))
