@@ -4,13 +4,8 @@
 
 .landing-grid {
   background: black;
-  background: -webkit-linear-gradient(
-    to right,
-    #5d26c1,
-    #a17fe0,
-    #59c173
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #5d26c1, #a17fe0, #59c173); */
+  background: -webkit-linear-gradient(to right, #5d26c1, #a17fe0, #59c173);
+  /* background-image: url("./images/code.png"); */
 
   text-align: center;
   position: fixed;
@@ -20,7 +15,7 @@
   height: 100%;
 }
 
-.avatar-img {
+.img {
   height: 250px;
   padding-top: 5em;
 }
@@ -34,19 +29,19 @@
 }
 
 .banner-text h1 {
-  color: lightblue;
+  color: lightcoral;
 
   font-size: 66px;
 }
 
 .banner-text hr {
-  border-top: 5px solid lightblue;
+  border-top: 5px solid lightcoral;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: lightblue;
+  color: lightcoral;
   font-size: 20px;
   padding: 1em;
 }
@@ -97,8 +92,4 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
-}
-
-.ig i {
-  font-size: 50px;
 }

@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
-import '../style/App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { Link } from 'react-router-dom';
-import Main from './Main';
-
+import React, { Component } from "react";
+import "../style/App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Link } from "react-router-dom";
+import Main from "./Main";
 
 class NavBar extends Component {
   render() {
     return (
-
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Bryan Guilas" scroll>
+          <Header className="header-color" title="Syed Dilawar" scroll>
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/aboutme">Resuma</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
@@ -22,7 +20,7 @@ class NavBar extends Component {
           <Drawer title="Bryan Guilas">
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/aboutme">Resuma</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
@@ -32,8 +30,7 @@ class NavBar extends Component {
             <Main />
           </Content>
         </Layout>
-      </div >
-
+      </div>
     );
   }
 }
