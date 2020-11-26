@@ -22,26 +22,32 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
+          <CardText style={{ textAlign: "center", text: "Bold" }}>
+            Day Planner is a app Which help you plane your day
+          </CardText>
           <CardTitle
             style={{
               color: "#fff",
               height: "450px",
-              background: `url(https://images.unsplash.com/photo-1540189549336-e?ixlib=rb-) center / cover`,
+              background: `url("./image/dayplanner.png") center / cover`,
             }}
           ></CardTitle>
-          <CardText>
-            Search for recipes and the drinks to go alongside your meal with The
-            Home Chef.
-          </CardText>
+
           <CardActions border>
-            <a href="https://github.com/30" target="_blank">
+            <a
+              href="https://github.com/syeddilawar/day-planner"
+              target="_blank"
+            >
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
             </a>
-            <a href="https://huqian301.github." target="_blank">
+            <a
+              href="https://syeddilawar.github.io/day-planner/"
+              target="_blank"
+            >
               <Button colored style={{ marginLeft: "75px" }}>
-                Live Demo
+                Try App
               </Button>
             </a>
           </CardActions>
@@ -69,7 +75,7 @@ class Projects extends Component {
             </a>
             <a href="https://bgm6.github.io/pp/" target="_blank">
               <Button colored style={{ marginLeft: "75px" }}>
-                Live Demo
+                Try App
               </Button>
             </a>
           </CardActions>
@@ -95,7 +101,7 @@ class Projects extends Component {
             </a>
             <a href="https://notetakerexercise.hpp.com/" target="_blank">
               <Button colored style={{ marginLeft: "75px" }}>
-                Live Demo
+                Try App
               </Button>
             </a>
           </CardActions>
@@ -109,7 +115,7 @@ class Projects extends Component {
               color: "#fff",
               height: "450px",
               background:
-                "url(htcom/s/files/792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295) center / cover",
+                "url(htcom/s/files/792/products/Under_Conruct600x600_crop_center.jpg?v=1569104295) center / cover",
             }}
           ></CardTitle>
           <CardText>Coming soon...</CardText>
@@ -121,7 +127,7 @@ class Projects extends Component {
             </a>
             <a href="#" target="_blank">
               <Button colored style={{ marginLeft: "75px" }}>
-                Live Demo
+                Try App
               </Button>
             </a>
           </CardActions>
@@ -138,10 +144,10 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>The Home Chef</Tab>
-          <Tab>Movie Info Finder</Tab>
-          <Tab>My Note Taker</Tab>
-          <Tab>Project 2 Coming Soon</Tab>
+          <Tab>Day Planner</Tab>
+          <Tab>Code-Quiz</Tab>
+          <Tab>weather-Dashboard</Tab>
+          <Tab>Employee-summary</Tab>
         </Tabs>
 
         <section className="projects-grid">
