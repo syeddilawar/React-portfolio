@@ -5,7 +5,10 @@ class Resuma extends Component {
   render() {
     return (
       <div className="Resuma">
-        <h1 style={{ textAlign: "center", text: "Bold" }}>RESUMA</h1>
+        <h1 style={{ textAlign: "center", text: "Bold", color: "white" }}>
+          RESUMA
+        </h1>
+        <hr></hr>
         <Card
           shadow={0}
           style={{ width: "720px", margin: "auto", marginTop: "20px" }}

@@ -34,6 +34,23 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
               </List>
+              <div className="social-links">
+                <a
+                  href="http://www.linkedin.com/in/wasim-dilawer"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin" aria-hidden="true" />
+                </a>
+
+                <a
+                  href="https://github.com/syeddilawar?tab=repositories"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>

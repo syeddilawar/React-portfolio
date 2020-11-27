@@ -27,7 +27,7 @@ class Projects extends Component {
             style={{
               color: "#fff",
               height: "450px",
-              background: `url("./image/dayplanner.png") center / cover`,
+              background: `url(./image/dayplanner.png) center / cover`,
             }}
           ></CardTitle>
 
@@ -39,6 +39,7 @@ class Projects extends Component {
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
+              
             </a>
             <a
               href="https://syeddilawar.github.io/day-planner/"
@@ -62,7 +63,7 @@ class Projects extends Component {
             style={{
               color: "#fff",
               height: "450px",
-              background: "url() center / cover",
+              background: "url(../image/code-quiz.png) center / cover",
             }}
           ></CardTitle>
 
@@ -90,7 +91,7 @@ class Projects extends Component {
             style={{
               color: "#fff",
               height: "450px",
-              background: "url() center / cover",
+              background: "url(../image/weatherdashboard.png) center / cover",
             }}
           ></CardTitle>
 
@@ -125,7 +126,7 @@ class Projects extends Component {
             style={{
               color: "#fff",
               height: "450px",
-              background: "url(3) center / cover",
+              background: "url(../images/) center / cover",
             }}
           ></CardTitle>
 
@@ -157,7 +158,7 @@ class Projects extends Component {
             style={{
               color: "#fff",
               height: "450px",
-              background: "url(3) center / cover",
+              background: "url(../images/) center / cover",
             }}
           ></CardTitle>
 
@@ -171,7 +172,7 @@ class Projects extends Component {
               </Button>
             </a>
             <a href="./image/generater.gif" target="_blank">
-              <Button colored style={{ marginLeft: "75px" }}>
+              <Button colored style={{ marginLeft: "70px" }}>
                 Try App
               </Button>
             </a>

@@ -98,3 +98,9 @@
   font-size: 70px;
   padding-right: 5rem;
 }
+.mdl-layout__content {
+  background-image:url("../image/code.jpg")
+}
+.mdl-tabs__tab-bar {
+  background-color: white;
+}
