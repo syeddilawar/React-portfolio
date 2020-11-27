@@ -5,8 +5,6 @@
 .landing-grid {
   background: black;
   background: -webkit-linear-gradient(to right, #5d26c1, #a17fe0, #59c173);
-  /* background-image: url("./images/code.png"); */
-
   text-align: center;
   position: fixed;
   top: 0;
@@ -99,7 +97,7 @@
   padding-right: 5rem;
 }
 .mdl-layout__content {
-  background-image:url("../image/code.jpg")
+  background-image: url("../image/code.jpg");
 }
 .mdl-tabs__tab-bar {
   background-color: white;

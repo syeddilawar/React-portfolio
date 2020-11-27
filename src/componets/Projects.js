@@ -39,7 +39,6 @@ class Projects extends Component {
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
               </Button>
-              
             </a>
             <a
               href="https://syeddilawar.github.io/day-planner/"
