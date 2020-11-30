@@ -8,7 +8,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={10}>
             <h2>Contact Me</h2>
-            <hr />
+            <hr className="hr2"></hr>
             <div className="contact-list">
               <List>
                 <ListItem>

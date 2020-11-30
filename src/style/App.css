@@ -103,11 +103,10 @@
   background-color: white;
 }
 .hr1 {
-  position: relative;
-  border: none;
-  height: 5px;
-  background: white;
-  margin-bottom: 50px;
+  border-top: 2px dashed white;
+  /* width: 50%; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .hr2 {
   border-top: 2px dashed black;

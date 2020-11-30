@@ -5,7 +5,6 @@ import {
   Grid,
   Cell,
   Card,
-  CardTitle,
   CardActions,
   Button,
   CardText,
@@ -31,9 +30,10 @@ class Projects extends Component {
             Day Planner is a app Which help you plane your day
           </CardText>
           <hr className="hr2"></hr>
-          <img src={dayPlanner} style={{ height: 450 }} />
+          <img src={dayPlanner} style={{ height: 400 }} />
 
           <CardActions border>
+            <hr className="hr2"></hr>
             <a
               href="https://github.com/syeddilawar/day-planner"
               target="_blank"
@@ -61,9 +61,10 @@ class Projects extends Component {
             and see high score.
           </CardText>
           <hr className="hr2"></hr>
-          <img src={codequiz} style={{ height: 450 }} />
+          <img src={codequiz} style={{ height: 400 }} />
 
           <CardActions border>
+            <hr className="hr2"></hr>
             <a href="https://github.com/syeddilawar/quiz-code" target="_blank">
               <Button colored style={{ marginLeft: "30%" }}>
                 Github
@@ -84,9 +85,10 @@ class Projects extends Component {
             This is a Weather Dashboard app which shows your selected weather.
           </CardText>
           <hr className="hr2"></hr>
-          <img src={weather} style={{ height: 450 }} />
+          <img src={weather} style={{ height: 400 }} />
 
           <CardActions border>
+            <hr className="hr2"></hr>
             <a
               href="https://github.com/syeddilawar/weather-Dashboard"
               target="_blank"
@@ -114,9 +116,10 @@ class Projects extends Component {
             summary.
           </CardText>
           <hr className="hr2"></hr>
-          <img src={employee} style={{ height: 450 }} />
+          <img src={employee} style={{ height: 400 }} />
 
           <CardActions border>
+            <hr className="hr2"></hr>
             <a
               href="https://github.com/syeddilawar/Employee-summary"
               target="_blank"
@@ -141,9 +144,10 @@ class Projects extends Component {
             node.js.
           </CardText>
           <hr className="hr2"></hr>
-          <img src={readme} style={{ height: 450 }} />
+          <img src={readme} style={{ height: 400 }} />
 
           <CardActions border>
+            <hr className="hr2"></hr>
             <a
               href="https://github.com/syeddilawar/Readme-Generator"
               target="_blank"
