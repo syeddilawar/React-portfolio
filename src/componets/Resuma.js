@@ -8,7 +8,7 @@ class Resuma extends Component {
         <h1 style={{ textAlign: "center", text: "Bold", color: "white" }}>
           RESUMA
         </h1>
-        <hr></hr>
+        <hr className="hr1"></hr>
         <Card
           shadow={0}
           style={{ width: "720px", margin: "auto", marginTop: "20px" }}

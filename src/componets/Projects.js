@@ -10,6 +10,11 @@ import {
   Button,
   CardText,
 } from "react-mdl";
+import dayPlanner from "../image/dayplanner.png";
+import codequiz from "../image/code-quiz.png";
+import weather from "../image/weatherdashboard.png";
+import employee from "../image/employee.gif";
+import readme from "../image/generater.gif";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -20,16 +25,13 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <Card shadow={5} style={{ width: "720px", margin: "auto" }}>
-          <CardText style={{ textAlign: "center", text: "Bold" }}>
+          <CardText
+            style={{ textAlign: "center", text: "Bold", color: "blank" }}
+          >
             Day Planner is a app Which help you plane your day
           </CardText>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "450px",
-              background: `url(./image/dayplanner.png) center / cover`,
-            }}
-          ></CardTitle>
+          <hr className="hr2"></hr>
+          <img src={dayPlanner} style={{ height: 450 }} />
 
           <CardActions border>
             <a
@@ -58,13 +60,8 @@ class Projects extends Component {
             This is a Code-Quiz webpage where you have 60 sec to answer question
             and see high score.
           </CardText>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "450px",
-              background: "url(../image/code-quiz.png) center / cover",
-            }}
-          ></CardTitle>
+          <hr className="hr2"></hr>
+          <img src={codequiz} style={{ height: 450 }} />
 
           <CardActions border>
             <a href="https://github.com/syeddilawar/quiz-code" target="_blank">
@@ -86,13 +83,8 @@ class Projects extends Component {
           <CardText style={{ textAlign: "center", text: "Bold" }}>
             This is a Weather Dashboard app which shows your selected weather.
           </CardText>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "450px",
-              background: "url(../image/weatherdashboard.png) center / cover",
-            }}
-          ></CardTitle>
+          <hr className="hr2"></hr>
+          <img src={weather} style={{ height: 450 }} />
 
           <CardActions border>
             <a
@@ -121,13 +113,8 @@ class Projects extends Component {
             This is Employee-summary Generator which help you create a employee
             summary.
           </CardText>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "450px",
-              background: "url(../images/) center / cover",
-            }}
-          ></CardTitle>
+          <hr className="hr2"></hr>
+          <img src={employee} style={{ height: 450 }} />
 
           <CardActions border>
             <a
@@ -153,13 +140,8 @@ class Projects extends Component {
             This is a Readme generator which help you create a Readme file on
             node.js.
           </CardText>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "450px",
-              background: "url(../images/) center / cover",
-            }}
-          ></CardTitle>
+          <hr className="hr2"></hr>
+          <img src={readme} style={{ height: 450 }} />
 
           <CardActions border>
             <a

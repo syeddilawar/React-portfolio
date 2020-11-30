@@ -102,3 +102,13 @@
 .mdl-tabs__tab-bar {
   background-color: white;
 }
+.hr1 {
+  position: relative;
+  border: none;
+  height: 5px;
+  background: white;
+  margin-bottom: 50px;
+}
+.hr2 {
+  border-top: 2px dashed black;
+}
